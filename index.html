@@ -1,648 +1,1061 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>project2</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BootStarp</title>
 
 <link rel="stylesheet" href="css/style.css">
 <link rel= "stylesheet" href="css/all.css" >
 
 
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
 <meta charset="UTF-8">
+
+ 
 
 </head>
 
+<main style="height: 100vh;">
 
+    <nav class="navbar navbar-expand-sm   p-0 " style="z-index: 5000; position: fixed; width: 100%; box-shadow: 2px 2px 10px rgba(137, 68, 21, 0.4) ">
+        <!-- Brand -->
+        <div class="logo navbar-brand  ml-5 flex-grow-0  "><img src="images/logo7.png" 
+            class="rounded-circle ml-3"  width="60" height="60"></div><!--LOGO-->
+        <div class=" navbar-brand logoo  px-2 mr-2" style="color: #660033;font-family: lora;
+" >Sweet Delights</div><!--NAVBRAND-->
 
+        <!-- Links -->
 
-<body>
+        <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  justify-content-between" id="collapsibleNavbar">
 
-
-    <main>
-<header>
-    <div class="header">
-
-        <div class="up">
-<ul class="left">
-
-<li >About Us</li> 
-<li class="pr" >Privacy  </li>
-<li class="f" >FAQ</li>
-<li class="c">Careers</li>
-
-    <li class="right">My Wishlist</li>
-    <li class="tr">Track Your Order</li>
-    <li class="ic"><i class="fa-brands fa-facebook"></i></li>
-    <li class="ic"><i class="fa-brands fa-instagram"></i></li>
-    <li class="ic"><i class="fa-brands fa-twitter"></i></li>
-    <li class="ic"><i class="fa-brands fa-linkedin-in"></i></li>
-    <li class="ic"><i class="fa-brands fa-youtube"></i></li>
-    </ul>
-
-    </div><!--up-->
-<hr>
-
-</ul>
-
-<div class="down">
-<img src="images/logo50.jpg" class="logo" width="220" height="52">
-
-<ul class="middle">
-    <li class="ho"><span class="upline"></span>Home <span class="downline"></span></li>
-    <li class="mwell"><span class="spm"></span>Man wellness <span class="spw"></span></li>
-    <li class="wwell"> <span class="spmw"></span>Woman wellness <span class="spww"></span></li>
-    <li class="bab"><span class="bap"></span>baby care <span class="bapp"></span></li>
-    <li class="pag"><span class="upline2"></span>Pages<i class="fa-solid fa-angle-down">
-        <div class="list">
-
-            <div class="listcontainer">
-            <div class="listright">
-            <ol>
-                <li class="toplist">pages</li>
-              <li><a href="#">Login</a></li>
-              <li><a href="#">Cart</a></li>
-              <li><a href="#">Product Details</a></li>
-              <li><a href="#">Product checkout</a></li>
-            </ol>
-            </div><!--listright-->
-
-            <div class="listleft">
-            <ul>
-                <li class="toplist">Blog</li>
-            <li><a href="#">Element</a></li>
-            <li><a href="#">Blog Details</a></li>
+        <ul class="navbar-nav " >
+          <li class="nav-item">
+            <a class="nav-link"  href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+      
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="border:2px solid #660033">
+             <span class="m">M</span>enu
+            </a>
+            <div class="dropdown-menu" style="background-color: rgba(255, 231, 231,.7);">
+              <a class="dropdown-item" href="#">WEDDINGS</a>
+              <a class="dropdown-item" href="#">BIRTHDAYS</a>
+              <HR></HR>
+              <a class="dropdown-item" href="#">SEASONAL</a>
+              <a class="dropdown-item" href="#">CUPCAKES</a>
+              
+              <a class="dropdown-item" href="#">CHEESECAKE</a>
+              <HR></HR>
+              <a class="dropdown-item" href="#">WARM BAKED</a>
             
-            </ul>
-            </div><!--listcontainer-->
-            </div><!--listleft-->
-              </div><!--list-->
+              <a class="dropdown-item" href="#">MORE...</a>
+        </div><!--DROP-->
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+        </ul>
+          
+        <form class="form-inline mt-3 mt-md-0" action="/action_page.php">
+    <input class="form-control mr-sm-2  " type="text" placeholder="Search">
+    <button class="btn headbtn mt-2 mt-md-0 ml-2" type="submit" style="background-color: #660033;
+    color: white; transition: 1s;" >Search</button>
+    
+        <button type="button" class="btn  headbtn mx-3 mt-2 mt-md-0" data-toggle="modal" data-target="#myModal"
+        style="background-color: #660033; color: white; transition: 1s;">
+          Login
+        </button>
+      
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
             
-    </i> <span class="downline2"></span></li>
-    <li class="con"><span class="conup"></span>Contact <span class="cond"></span>
-    </li>
-    
-<li class="icn">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header" style="background-color: #663300;">
+                  <h4 class="modal-title" style="color: #ffffff;">Login</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body modalbody ">
+                    <div class="container d-flex flex-column align-items-start">
+                        
+                        <form action="/action_page.php">
+                          <div class="form-group d-flex flex-column align-items-start w-100">
+                            <label for="email" class=" my-1 text-primary ">Email Adress:</label>
+                            <input type="email" class="form-control  w-100" id="email" placeholder="Enter email" name="email">
+                            <div class=" mb-2 " style="font-size:smaller; opacity: .4;">we'll never share your email with anyone else</div>
+                          </div>
+                          <div class="form-group  d-flex flex-column align-items-start w-100">
+                            <label for="pwd" class=" my-1 text-primary">Password:</label>
+                            <input type="password" class="form-control pswdwidth w-100" id="pwd" placeholder="Enter password" name="pswd">
+                          </div>
+                          <div class="custom-control custom-switch mt-3 ml-4">
+                            <input class="custom-control-input" type="checkbox" id="mySwitch" >
+                            <label class="custom-control-label  text-primary" style="font-size:14px;" for="mySwitch">Remmember Me</label>
+                             
+                          </div>
+                        </form>
+                      </div>
+                </div>
+                <div class="modal-footer justify-content-between">
+                    <button type="submit" class="btn  ml-3 " style=" background-color: #663300; color: white;">login</button>
 
-    <i class="fa-solid fa-magnifying-glass"></i>
-</li>
-<li>
-    <i class="fa-regular fa-user"></i>
-</li>
-<li class="icn2">
-    <i class="fa-solid fa-cart-shopping"></i><span class="numb">2</span>
-</li>
-    
-</li>
-</ul>
-
-</div><!--down-->
-    </div><!--header-->
-</header>
-
-
-    <div class="gap"><p> Up To 50% Biggest Discount, Hurry! Limited Period Offer <a href="#">Shop Now</a></a></p></div>
-    
-    
-    <div class="parent">
-        <div class="content">
-<P class="title">Seasonal wellness Specials</P>
-<h2> Herbal Minimalism Apothecary</h2>
-<p class="pcontent">Nature's wisdom with our organic herbal formulations <br> support immunity, calm the mind and rejuvenate the body. <br>
-    
-</body> 
-    Experience holistic care crafted for your well-being.</p>
-        <button>Discover Your Remedy</button>
-
-        </div><!--content-->
-    </div><!--parent-->
+                  <button type="button" class="btn btn-danger mr-3" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+          </div><!--COLAPSE-->
+      </nav>
+   
 
 
 
+
+      
+
+
+
+
+
+
+
+
+<div class=" position-fixed   pr-5  " style="z-index: 9000; right:0; width: 108px; margin-top: 140px;">
+   <div class="icn d-flex flex-column align-items-start justify-content-end ">
+    <i class="fa-brands fa-square-facebook text-primary m-2 fa-4x "></i>
+    <i class="fa-brands fa-square-whatsapp text-primary m-2  fa-4x"></i>
+    <i class="fa-brands fa-square-twitter text-primary m-2  fa-4x"></i>
+    <i class="fa-brands fa-linkedin text-primary m-2  fa-4x"></i>
+    <i class="fa-brands fa-square-instagram text-primary m-2  fa-4x"></i>
+   </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <div id="demo" class="carousel slide" data-ride="carousel" >
+        
+        <div class="carousel-inner" >
+          <div class="carousel-item active " >
+            <img src="images/wed3.jpeg"   >
+
+            <div class="carousel-caption  jumbotron jumbotron-fluid    text-light  jumbostart" style="box-shadow: 2px 2px 10px rgba(137, 68, 21, 0.4) ;">
+              <h3 style="text-shadow:1px 1px 10px rgba(137, 68, 21, 0.6) ; font-family: lora;">Elegant Wedding Creations</h3>
+              <p >Ever after starts here! <br>
+            Custom-designed elegance for your timeless day</p>
+              <button style="border-radius: 6px ;">Visit Us</button>
+              <ul class="carousel-indicators ">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+
+              </ul>
+            </div> <!--caption-->
+          </div><!--item-->
+
+
+          <div class="carousel-item">
+            <img src="images/birth4.jpg" >
+            <div class="carousel-caption jumbotron jumbotron-fluid  text-light jumbostart" style="box-shadow: 2px 2px 10px rgba(137, 68, 21, 0.4) ">
+              <h3 style="text-shadow:1px 1px 10px rgba(137, 68, 21, 0.6) ;font-family: lora;">Birthday Cakes</h3>
+              <p>Celebrate unforgettable! <br>
+            Whimsical creations that spark pure joy.</p>
+              <button style="border-radius: 6px ;">Visit Us</button>
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" ></li>
+                <li data-target="#demo" data-slide-to="1" class="active"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+
+              </ul>
+            </div><!--caption-->   
+          </div><!--item-->
+
+
+          <div class="carousel-item">
+            <img src="images/birth5.jpg" alt="New York" >
+            <div class="carousel-caption jumbotron jumbotron-fluid  text-light jumbostart" style="box-shadow: 2px 2px 10px rgba(137, 68, 21, 0.4) ">
+              <h3 style="text-shadow:1px 1px 10px rgba(137, 68, 21, 0.6) ;font-family: lora;">Seasonal Specials</h3>
+              <p>Taste the season! <br>
+            Limited-edition flavors crafted with nature's rhythm.</p>
+              <button style="border-radius: 6px ;">Visit Us</button>
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" ></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"  class="active"></li>
+                <li data-target="#demo" data-slide-to="3"></li>
+
+              </ul>
+            </div> <!--caption-->  
+          </div><!--item-->
+       
+
+
+ <div class="carousel-item">
+            <img src="images/main7.jpg" alt="Chicago" >
+            <div class="carousel-caption jumbotron jumbotron-fluid  text-light jumbostart"style="box-shadow: 2px 2px 10px rgba(137, 68, 21, 0.4) ">
+              <h3 style="text-shadow:1px 1px 10px rgba(137, 68, 21, 0.6) ;font-family: lora;">Warm Baked Treats</h3>
+              <p>Fresh from our oven! <br>
+            Daily-baked comfort in every buttery bite</p>
+              <button style="border-radius: 6px ;">Visit Us</button>
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" ></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+                <li data-target="#demo" data-slide-to="3" class="active"></li>
+              </ul>
+            </div>  <!--caption--> 
+          </div><!--item-->
+
+
+        <a class="carousel-control-prev  " href="#demo" data-slide="prev" style="z-index: 2000;">
+          <span class="carousel-control-prev-icon" style="z-index: 2000;"></span>
+        </a>
+        <a class="carousel-control-next  " href="#demo" data-slide="next" style="z-index: 2000;">
+          <span class="carousel-control-next-icon" style="z-index: 2000;"></span>
+        </a>
+
+        
+      </div>
+      
+     
+      
 </main>
 
 
 
- <!--///////////////////////////////////////////////////////-->  
-<section>
-<div class="parent2">
-<div class="container">
 
 
-<div class="dv1">
-    
-    <div class="content2">
-        <h2>Woman Wellness</h2>
-        <a href="#">Shop Now</a>
-    </div><!--content2-->
-        <div class="dvoverlay"></div>
-   
-</div><!--dv1-->
-
-
-<div class="dv2">
-    <div class="content2">
-     <h2>Man Wellness</h2> 
-     <a href="#">Shop Now</a>
-    </div><!--content2-->
-    
-
-    <div class="dvoverlay"></div>
-</div>
-
-
-<div class="dv3">
-    <div class="content2">
-        <h2>Baby Care</h2>
-        <a href="#">Shop Now</a>
-    </div><!--content2-->
-        <div class="dvoverlay"></div>
-   
-</div>
-
-
-
-
-</div><!--container-->
-
-
-
-</div><!--parent2-->
-
-</section>
-
-<!--///////////////////////////////////////////////////////////-->
- <section class="trendsection">
-
-
-
-<div class="trendtop">
-<h2>Trendig this weak</h2>
-<ul>
-<li>Man</li>
-<li>Woman</li>
-<li>Baby</li>
-<li class="gh">General Health</li>
-</ul>
-</div><!--trendtop-->
-
-<i class="fa-solid fa-angle-right rightang"></i>
-
-<i class="fa-solid fa-angle-left  leftang"></i>
-
-<div class="trendparent">
-<div class="trendcontainer cont1  c1">
-<div class="front"></div><!--front-->
-
-<div class="back">
-    <div class="trendicons">
-        <i class="fa-regular fa-magnifying-glass-plus"></i>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-solid fa-cart-shopping"></i>
-    </div><!--trendicons-->
-</div><!--back-->
-
-<div class="trendbottom">
-    <p>Herbal Tea package+one free</p>
-    <p>&dollar;80 <del>	&dollar;100</del></p>
-    </div><!--trendbottom-->
-</div><!--trendcontainer-->
-
-
-<div class="trendcontainer  cont2 c2">
-<div class="front front2"></div><!--front-->
-
-<div class="back
- back2">
-    <div class="trendicons">
-
-        <i class="fa-regular fa-magnifying-glass-plus"></i>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-solid fa-cart-shopping"></i>
-    </div><!--trendicons-->
-</div><!--back-->
-
-
-<div class="trendbottom">
-    <p>Natural Herbal soap+one free</p>
-    <p>&dollar;50 <del>	&dollar;90</del></p>
-    </div><!--trendbottom-->
-
-</div><!--trendcontainer-->
-
-
-<div class="trendcontainer  cont3 c3">
-<div class="front front3"></div><!--front-->
-
-<div class="back back3">
-    <div class="trendicons">
-
-        <i class="fa-regular fa-magnifying-glass-plus"></i>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-solid fa-cart-shopping"></i>
-    </div><!--trendicons-->
-</div><!--back-->
-<div class="trendbottom">
-    <p> Tow Essential Oils of your taste</p>
-    <p>&dollar;180 <del>	&dollar;200</del></p>
-    </div><!--trendbottom-->
-</div><!--trendcontainer-->
-
-<div class="trendcontainer  cont4 c4">
-<div class="front front4"></div><!--front-->
-
-<div class="back back4">
-    <div class="trendicons">
-
-       <i class="fa-regular fa-magnifying-glass-plus"></i>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-solid fa-cart-shopping"></i>
-    </div><!--trendicons-->
-</div><!--back-->
-<div class="trendbottom">
-    <p>Herbal Supplements+one free</p>
-    <p>&dollar;380 <del>	&dollar;400</del></p>
-    </div><!--trendbottom-->
-</div><!--trendcontainer-->
-
-</div><!--trendparent-->
-
- </section>
-
- <!--/////////////////////////////////////////////////////////-->
-
-<section>
-
-
-
-<div class="testcontainer">
-    <i class="fa-solid fa-angle-right rightang"></i>
-
-    <i class="fa-solid fa-angle-left  leftang"></i>
-    
-
-<div class="testparent">
-
-<div class="testcontent">
-<h2>Customer Testimonal</h2>
-<p class="testp">"Nature holds the cure,and this pharmacy brings it to your doorstep.
-    After years of struggling with sleepless nights and stress,
-    their organic blends transformed my health. From soothing my digestion
-    to boosting my energy.
-    I finally found harmony in body and mind naturally."
-</p>
-<div class="face"></div>
-<div class="facecontent">
-<h3 class="faceh">Maya Mady</h3>
-<p class="facep"> Longtime Customer</p>
-</div><!--facecontent-->
-</div><!--content-->
-</div><!--parent-->
-
-
-
-
-
-</div><!--container-->
-
-
-</section>
-
-<!--///////////////////////////////////////////////////////-->
-
-
-<section>
-
-
-
-<h2 class="likeh">You May Like</h2>
-<div class="likeback">
-
-    <i class="fa-solid fa-angle-right rightang likerang"></i>
-
-    <i class="fa-solid fa-angle-left  leftang likelang"></i>
-    
-
-
-
-    <div class="trendparent likeparent">
-
-        
-        <div class="trendcontainer cont1 likecontainer likeafter1">
-            
-
-            
-        <div class="front likefront"></div><!--front-->
-        
-       
-            <div class="trendicons likeicon">
-                <i class="fa-regular fa-magnifying-glass-plus"></i>
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-            </div><!--trendicons-->
-       
-        
-        <div class="trendbottom">
-            <p class="energy">Organic energy support set</p>
-            <p>&dollar;80 <del>	&dollar;100</del></p>
-            </div><!--trendbottom-->
-        </div><!--trendcontainer-->
-        
-        
-        <div class="trendcontainer  cont2 likecontainer likeafter2">
-        <div class="front front2  likefront2"></div><!--front-->
-        
-       
-            <div class="trendicons likeicon">
-        
-                <i class="fa-regular fa-magnifying-glass-plus"></i>
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-            </div><!--trendicons-->
-        
-        
-        
-        <div class="trendbottom">
-            <p class="dsleep"> Organic  Deep Sleep kit </p>
-            <p>&dollar;180 <del>	&dollar;200</del></p>
-            </div><!--trendbottom-->
-        
-        </div><!--trendcontainer-->
-        
-        
-        <div class="trendcontainer  cont3 likecontainer likeafter3">
-        <div class="front front3  likefront3"></div><!--front-->
-        
+<hr class="mt-5 mb-5" style="background-color: #ff6a87;">
+
+<section class="mt-5">
+
+    <div class="jumbotron jumbotron-fluid pt-4 mb-5" style="border-radius: 10px; background-color: rgb(255, 246, 246); box-shadow:1px 1px 20px rgba(137, 68, 21, 0.4) inset;">
+        <div class="container-fluid px-5">
+          <h1 style="color: #660033;font-family: lora;">WELCOME TO SWEET DELIGHTS</h1>
+          <p style="color: #964b00;">Indulge in heavenly creations crafted with passion! We specialize in custom
+             cakes, artisanal pastries,and dessert tables for all occasions.
+             From elegant wedding cake to playful birthday treats,our master bakers transform quality
+             ingredients into edible masterpieces.Delivery available across the city.
+          </p>
+          <button class="btn mt-3 border-0" style="color: #ffffff; background-color: #660033; height: 35px;">Explore Our Creations</button>
+        </div>
+      </div>
+<hr style="background-color: #ff6a87;">
+      <div class="jumbotron jumbotron-fluid text-center best pt-4 mb-2 mt-5" style="border-radius: 10px; background-color:#fff5f5; color: #660033; 
+      box-shadow:1px 1px 20px rgba(137, 68, 21, 0.4) ;">
+        <div class="container" >
+          <h1>Our Signature Collection</h1>
+        </div>
+      </div>
+
+
+
+
+      <div id="accordion">
+
+        <div class="card">
+          <div class="card-header " 
+          style="background-color: #fff5f5;">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne" style="color: #ff6a87;">
+              WEDDING CAKE COLLECTION
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-body" style="color: #660033;">
+              Elegant multi-tiered masterpieces crafted for your special day.
+              Featuring delicate sugar flowers, metalic accents, and cusom design to match
+              your wedding theme.Available in  classic vanilla, decadent chocolate,align-items-endseasonal flavors.
+            </div>
+          </div>
+        </div>
       
-            <div class="trendicons likeicon">
-        
-                <i class="fa-regular fa-magnifying-glass-plus"></i>
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-            </div><!--likeicons-->
-        
-        <div class="trendbottom">
-            <p>Organic lipcare set+one free</p>
-            <p>&dollar;50 <del>	&dollar;90</del></p>
-            
-            </div><!--trendbottom-->
-        </div><!--trendcontainer-->
-        
-        <div class="trendcontainer  cont4 likecontainer likeafter4">
-        <div class="front front4 likefront4"></div><!--front-->
-        
-        
-            <div class="trendicons likeicon">
-        
-               <i class="fa-regular fa-magnifying-glass-plus"></i>
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-            </div><!--trendicons-->
+        <div class="card">
+          <div class="card-header"style="background-color: #fff5f5; box-shadow:1px 1px 7px rgba(137, 68, 21, 0.4) inset; ">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo" style="color: #ff6a87;">
+              BIRTHDAY SPECIALTIES
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body" style="color: #660033;">
+           Playful and vibrant creations that make celebration unforgettable.from carton 
+           characters cake for kids to sophisticated drip cakes for adult.Customaizable 
+           with edible photos,fontant figures,and perssonalized messages.
+            </div>
+          </div>
+        </div>
       
-        <div class="trendbottom">
-            <p>Organic Fragrance +one free</p>
-            <p>&dollar;380 <del>	&dollar;400</del></p>
-            </div><!--trendbottom-->
-        </div><!--trendcontainer-->
+        <div class="card">
+          <div class="card-header" style="background-color: #fff5f5; box-shadow:1px 1px 7px rgba(137, 68, 21, 0.4) inset;">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree" style="color: #ff6a87;">
+                SEASONAL DELIGHTS
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body" style="color: #660033;">
+             ROTATING SELECTION CELEBRATING HOLIDAYS AND SEASONS LIKE SPRING BERRY CHANTILLY
+             and lemon-raspberry blossom,summer tropical cocconut-pinapple and mango cake.
+             winter peppermint chocolate and eggnog cheesecake.
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+
+
+
+</section>
+<hr class="mt-5 mb-5 " style="background-color: #ff6a87;">
+
+
+
+<section>
+<div class="p-5" style="background-image: url(images/bac3.jpg); background-size: cover; opacity: .8;
+background-attachment: fixed; width: 100vw; height: 50vh;"></div>
+</section>
+
+
+
+<section class="totalcards">
+
+
+    <div class="card-columns mt-5 ml-4 card8">
+        <div class="card m-4" style="width:400px;">
+            <img class="card-img-top" src="images/bersh.jpg" alt="Card image">
+            
+            <div class="card-body d-flex justify-content-between">
+                <div class="contentparent">
+              <h4 class="card-title">BERRY PARADISE</h4>
+              <p class="card-text">Fresh berries atop vanilla cloud</p>
+            </div>
+              <a href="#" class="btn  btn-primary" style="height: 40px;">Know More</a>
+           
+            </div>
+          </div>
+
+
+          <div class="card m-4" style="width:400px;">
+            <img class="card-img-top" src="images/chocsh.jpg" alt="Card image">
+            <div class="card-body d-flex justify-content-between">
+                <div class="contentparent">
+              <h4 class="card-title">CHOCOLATE CAKE</h4>
+              <p class="card-text">Tripple-layered molten euphoria </p>
+            </div>
+              <a href="#" class="btn btn-primary" style="height: 40px;">Know More</a>
+           
+            </div>
+          </div>
         
-        </div><!--trendparent-->
 
-    </div><!--likeback-->
 
+       
+          <div class="card m-4" style="width:400px">
+            <img class="card-img-top" src="images/redsh2.jpg" alt="Card image">
+            <div class="card-body d-flex justify-content-between">
+              <div class="contentparent">
+            <h4 class="card-title">RED VELVET</h4>
+            <p class="card-text">Classic romance in every slice.</p>
+          </div>
+            <a href="#" class="btn btn-primary" style="height: 40px;">Know More</a>
+          
+          </div>
+          </div>
+
+
+
+
+
+<div class="card m-4" style="width:400px; ">
+    <img class="card-img-top" src="images/strawsh.jpg" alt="Card image">
+    <div class="card-body d-flex justify-content-between">
+        <div class="contentparent">
+      <h4 class="card-title">PINK CAKE</h4>
+      <p class="card-text">delicate taste of cake</p>
+    </div>
+      <a href="#" class="btn btn-primary" style="height: 40px;">Know More</a>
+   
+    </div>
+  </div>
+
+
+
+        
+
+
+
+
+
+  <div class="card m-4" style="width:400px;">
+    <img class="card-img-top" src="images/chsh.jpg" alt="Card image">
+    <div class="card-body d-flex justify-content-between">
+        <div class="contentparent">
+      <h4 class="card-title">CHEESECAKE</h4>
+      <p class="card-text">Silky New York-style perfection</p>
+    </div>
+      <a href="#" class="btn btn-primary" style="height: 40px;">Know More</a>
+   
+    </div>
+  </div>
+
+
+  <div class="card m-4" style="width:400px">
+    <img class="card-img-top" src="images/teramsh.jpg" alt="Card image">
+    <div class="card-body d-flex justify-content-between">
+      <div class="contentparent">
+    <h4 class="card-title">TIRAMISU</h4>
+    <p class="card-text">Espresso-dipped Italian elegance</p>
+  </div>
+    <a href="#" class="btn btn-primary" style="height: 40px;">Know More</a>
+  
+  </div>
+  </div>
+  
+  
+
+</div><!--column-->
+
+
+
+<div class="card-columns mt-3 mx-5 mb-5 card8 lastcards row justify-content-around">
+
+
+
+
+
+    <div class="card " style="width:400px; ">
+        <img class="card-img-top" src="images/mcsh.jpg" alt="Card image">
+        <div class="card-body d-flex justify-content-between">
+          <div class="contentparent">
+        <h4 class="card-title">MACRON</h4>
+        <p class="card-text">Handcrafted indulgence</p>
+      </div>
+        <a href="#" class="btn btn-primary" style="height: 40px;">Know More</a>
+      
+      </div>
+      </div>
+
+
+  <div class="card " style="width:400px">
+    <img class="card-img-top" src="images/dosh.jpg" alt="Card image">
+    <div class="card-body d-flex justify-content-between">
+        <div class="contentparent">
+      <h4 class="card-title">DONUTS</h4>
+      <p class="card-text">Hand-dipped rings of happiness</p>
+    </div>
+      <a href="#" class="btn btn-primary" style="height: 40px;">Know More</a>
+   
+    </div>
+ 
+</div><!--lastcards-->
+
+</div><!--cardcolumn-->
+
+     
 
 </section>
 
 
-<!--/////////////////////////////////////////////////////////-->
+
+<section>
+    <div class="p-5 mt-3 mb-2" style="background-image: url(images/bac2.jpg); background-size: cover;opacity: .9;
+    background-attachment: fixed; width: 100vw; height: 50vh;"></div>
+    </section>
+    
+<hr class="my-5" style="background-color: #ff6a87;">
+
+
+
+<section>
+    
+
+   
+    <!-- Modal -->
+  <div class="modal fade " id="alertmodal" role="dialog" style="margin-top: -50px; z-index: 1000000;">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+      
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+       
+        <div class="modal-body ml-3">
+          <p><strong>Sweet Delights cake Designer</strong></p>
+          <p> text copied.</p>
+        </div>
+        <div class="  d-flex justify-content-end px-4">
+          <button type="button" class="btn btn-success mb-4" data-dismiss="modal" style="width: 70px;">ok</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+
+  <div class="card">
+    <div class="card-header text-center mb-2" style="background-color: #fde9f3; box-shadow: 1px 1px 20px rgba(137, 68, 21, 0.4) ;">
+        <h2 style="color: #660033;">Custom Cake Designer</h2></div>
+    <div class="card-body" style="background-color: #fff5f5;">
+
+        <div class="form-group" >
+            <label  class="d-block" style="color: #660033;" for="comment ">Create Your Masterpiece:</label>
+            <button type="button" class="btn border-none  mb-3" data-toggle="modal" data-target="#alertmodal" data-backdrop="false" 
+            data-bs-toggle="tooltip" data-bs-palcement="top" title="Design Saved"
+            style="background-color:#660033; color: #ffffff;">Save Design</button>
+
+            <textarea class="form-control"  placeholder="Describe your dream cake : flavors, decoration, theme..." rows="5" id="comment"
+            style="box-shadow: 0px 2px 20px rgba(137, 68, 21, 0.2) "></textarea>
+          </div>
+
+    </div>
+  </div>
+
+
+
+
+       <!-- Modal -->
+  <div class="modal fade " id="alertmodal" role="dialog" style="margin-top: -50px;">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+      
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+       
+        <div class="modal-body">
+          <p><strong>This modal has no overlay.</strong></p>
+          <p> text copied.</p>
+        </div>
+        <div class="  d-flex justify-content-end px-4">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">ok</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <hr class="mt-3 mb-3">
+    <div class="card">
+        <div class="card-header text-center mb-2" 
+        style="background-color: #fde9f3; box-shadow: 1px 1px 20px rgba(137, 68, 21, 0.4) ;">
+            <h2 style="color: #660033;">Custom Cake Designer</h2></div>
+        <div class="card-body" style="background-color: #fff5f5;">
+
+            <div class="form-group">
+                <label  class="d-block"  for="comment " style="color: #660033;">Special Dietary Notes</label>
+                <button type="button" class="btn border-none mb-3" data-toggle="modal" data-target="#alertmodal"
+                data-bs-toggle="tooltip" data-bs-palcement="top" title="Design Saved"
+
+                style="background-color:#660033; color: #ffffff;">Copy Notes</button>
+
+                <textarea class="form-control" placeholder="List any allergies or dietary requirements:gluten-free, vegan,nut allergy..." rows="5" id="comment"
+                style="box-shadow: 0px 2px 20px rgba(137, 68, 21, 0.2) "></textarea>
+              </div>
+
+        </div>
+      </div>
+
+
+
+
+
+
+
+       <!-- Modal -->
+  <div class="modal fade " id="alertmodal" role="dialog" style="margin-top: -50px;">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+      
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+       
+        <div class="modal-body">
+          <p><strong>This modal has no overlay.</strong></p>
+          <p> text copied.</p>
+        </div>
+        <div class="  d-flex justify-content-end px-4">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">ok</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+<hr class="mt-3 mb-3">
+    <div class="card ">
+        <div class="card-header text-center mb-2"  style="background-color: #fde9f3; box-shadow: 1px 1px 20px rgba(137, 68, 21, 0.4) ;">
+            <h2 style="color: #660033;">Custom Cake Designer</h2></div>
+        <div class="card-body" style="background-color: #fff5f5;">
+
+            <div class="form-group">
+                <label  class="d-block"  for="comment " style="color: #660033;">Special Event Planner</label>
+                <button type="button" class="btn border-none mb-3" data-toggle="modal" data-target="#alertmodal"
+                data-bs-toggle="tooltip" data-bs-palcement="top" title="Design Saved"
+
+                style="background-color:#660033; color: #ffffff;">Copy Details</button>
+
+                <textarea class="form-control"  placeholder="Describe your upcomming celebration details...." rows="5" id="comment"
+                style="box-shadow: 0px 2px 20px rgba(137, 68, 21, .2) "></textarea>
+              </div>
+
+        </div>
+      </div>
+
+</section>
+
+<hr class="my-5" style="background-color: #ff6a87;">
+
 <section>
 
+    <div class="jumbotron jumbotron-fluid text-center best pt-4 mt-5" style="border-radius: 10px;color: #660033; background-color: #fff5f5;
+    box-shadow: 1px 1px 20px rgba(137, 68, 21, 0.4)">
+        <div class="container">
+          <h1>Thanks For</h1>
+        </div>
+      </div>
 
-    <div class=" newsparent">
-
-        <h2 class="newsh">Latest News</h2>
 
 
-    <div class="newscontainer">
+
+</section>
+<!--////////////////////////////////////////////////////////////////////-->
+<section style="overflow: hidden;">
+<div class="row cardout px-5 mb-5 " >
+    <div class="col">
+
+        <div class="card mt-4 ml-5 hover-card  " style="width:380px; height: 500px;
+         background-image: url(images/chef.jpg); background-size: cover;">
+                         <div class="overlay position-absolute top-0 start-0 w-100 h-100" style="background-color:rgba(137, 68, 21, 0.4) ; z-index: 1;"></div>
+
+            <div class="thank   mt-4 " style="color: white; position: sticky; z-index: 20;">
+                <h4 class="text-center">All thanks and appreciation</h2>
+                <p class="ml-5"><i class="fa-regular fa-clock"></i> july 1,2025</p>
+            </div><!--thank-->
+            <div class="card-body d-flex-column ">
+                <img class="rounded-circle ml-4" src="images/chef.jpg" style="width: 85px; height: 100px; margin-top:200px; position: sticky; z-index: 20;">
+
+                <div class="contentparent ml-4" style="color: white;position: sticky; z-index: 20;">
+              <h4 class="card-title">Chef Fatma</h4>
+              <p class="card-text">Cake chef</p>
+            </div><!--content-->
+
+            </div><!--body-->
+          </div><!--card-->
+    </div><!--col-->
+
+
+    <div class="col d-flex justify-content-center">
+
+
+        <div class="card mt-4 " style="width:380px; height: 500px; 
+        background-image: url(images/chef2.jpg); background-size: cover;">
+                <div class="overlay position-absolute top-0 start-0 w-100 h-100" style="background-color:rgba(137, 68, 21, 0.4) ; z-index: 1;"></div>
+
+            <div class="thank   mt-4" style="color: white;position: sticky; z-index: 20;">
+                <h4 class="text-center">All thanks and appreciation</h2>
+                <p class="ml-5"><i class="fa-regular fa-clock"></i> july 1,2025</p>
+            </div><!--thank-->
+            <div class="card-body d-flex-column ">
+                <img class="rounded-circle ml-4" src="images/chef2.jpg" style="width: 85px; height: 100px; margin-top:200px;position: sticky; z-index: 20;">
+
+                <div class="contentparent ml-4" style="color: white;position: sticky; z-index: 20;">
+              <h4 class="card-title">Chef Anne</h4>
+              <p class="card-text">Head chef</p>
+            </div><!--content-->
+
+            </div><!--body-->
+          </div><!--card-->
+    </div>
+
+
+
+
+    <div class="col">
+
+
+        <div class="card mt-4 ml-5 ml-md-5 ml-lg-0" style="width:380px; height: 500px;
+         background-image: url(images/chef3.jpg); background-size: cover;">
+                         <div class="overlay position-absolute top-0 start-0 w-100 h-100" style="background-color:rgba(137, 68, 21, 0.4) ; z-index: 1;"></div>
+
+            <div class="thank   mt-4" style="color: white;position: sticky; z-index: 20;">
+                <h4 class="text-center">All thanks and appreciation</h2>
+                <p class="ml-5"><i class="fa-regular fa-clock"></i> july 1,2025</p>
+            </div><!--thank-->
+            <div class="card-body d-flex-column ">
+                <img class="rounded-circle ml-4" src="images/chef3.jpg" style="width: 85px; height: 100px; margin-top:200px;position: sticky; z-index: 20;">
+
+                <div class="contentparent ml-4" style="color: white;position: sticky; z-index: 20;">
+              <h4 class="card-title">Chef Lora</h4>
+              <p class="card-text">Pastry chef</p>
+            </div><!--content-->
+
+            </div><!--body-->
+          </div><!--card-->
+    </div>
     
-  <div class="container"> 
-    <div class="newsdv1"></div> <!--dv1-->
-    <div class="newsdv2"></div>
-    <div class="newsdv3"></div>
-    </div><!--container-->
-
-<div class="contentcontainer">
-        <div class=" newscontent3">
-            <p>Herbal Perfumes</p>
-            <h2>Jasmine+Chamomile Nighttime Serenty</h2>
-<p>A floral-herbal fusion with magical effect 
-    that promots deep sleep and reduce restlessness</p>
-            <a href="#">Read More</a>
-        </div><!--content2-->
-            
-       
-   
+  </div>
     
-        
+</section>
+
+<hr style="background-color: #ff6a87;">
 
 
-        <div class=" newscontent3">
-            <p>Aromatherapy Tips</p>
-            <h2>Lavender+Vnilla  Relaxing Blend </h2>
-<p>A calming blend of French lavender and Madgascar vanilla,
-    perfect for unwinding after stress-filled day.
-</p> 
-         <a href="#">Shop Now</a>
-        </div><!--content2-->
-        
-    
-        
-    
-    
-    
-        <div class=" newscontent3">
+<!------//////////////////////////////////////////////////////////////-->
 
-        <p>Moisturizer Tips</p>
-        <h2>Shea Butter+Green Tea Hyrating Blend</h2>
-<p> Blend whipped shea butter with brewed green tea for a lightweight
-    Moisturizer that combats dryness and redness.
-</p>
-            <a href="#">Shop Now</a>
-        </div><!--content2-->
-            
+<section class="mt-5 " id="podcast" style="overflow: hidden;">
+<div class="h text-center mb-4" >
+<h2 style="text-shadow: 2px 2px 20px rgba(137, 68, 21, 0.4);">Sweet Delights</h2>
+</div>
+    <div class="container  mb-5" >
+<div class="row ">
+        <div class="row father col-12  position-relative" style="margin-left: 25px; ">
+          <div class="col-sm-4 picdv  " style="background-image: url(images/lemon.jpg); background-size: cover; border-radius: 16px;"></div>
+          <div class="col-sm-11 trapezoid-dv ml-lg-5 " style="background-color:rgb(255, 243, 243); border-radius: 16px;">
+<div class="container  scrol pt-5 col-md-8 col-12 mr-5 text-justify overflow-auto overflow-md-visible" style="
+height: 100%; width: 80%; margin-left: 250px;">
+           <h2 style="font-size: 28px; color: #660033; text-shadow: 1px 1px 5px rgba(137, 68, 21, 0.4);">Behinde The Scenes Feature</h2>
+           <p style="color: rgba(137, 68, 21, 0.8);"><i class="fa-solid fa-calendar-days mr-2"></i>New on Fri, oct 27th 2025</p>
+           <div class="line mb-4" style="height: 2px; width: 350px; background-color:#660033"></div>
+           <p style="line-height: 28px; color: rgba(137, 68, 21, 0.8);"> In The Kitchen... <br>
+            -Peek at today's creation :  <br>  Lemon-Raspberry Cloud Cake. <br>
+            -Chef Isabella, Head Pastry: we source berries daily from local farms.
+            <br> - The full recipe is on our channel</p>
+           <div class="container-fluid btncon mt-4 p-0" >
+            <button class="btn btn-light"> <i class="fa-solid fa-video mr-1"></i></i> Watch Reel</button>
+            <button class="btn btn-light"><i class="fa-solid fa-clock mr-1"></i>15 mins</button>
+            <button class="btn btn-light"><i class="fa-solid fa-icons mr-1"></i></i>Full Gallery</button>
+ 
+        </div><!--buttoncontainer-->
     </div><!--contentcontainer-->
-    
-    </div><!--newscontainer-->
-    
-    </div><!--parent2-->
-    
-    </section> 
-    <!--////////////////////////////////////////////////-->
-<section>
-
-
-<div class="fticoncontainer">
-
-<div class="fticonsur">
-<div class="fticon">
-    <div class="icnchange">
-    <i class="fa-solid fa-truck " ></i>
-    <i class="fa-solid fa-truck i2" ></i>
-    </div><!--icnchange-->
-    <h2>Fast Free Delivery</h2>
-    <p>Free delivery on all orders</p>
-</div>
-
-<div class="fticon">
-    <div class="icnchange icnchange2">
-    <i class="fa-solid fa-money-check-dollar"></i>
-    <i class="fa-solid fa-money-check-dollar i2"></i>
-</div><!--icnchange-->
-<h2>Secure Payment</h2>
-<p>Very safe ways for payment</p>
-</div>
-
-<div class="fticon">
-    <div class="icnchange icnchange3">
-    <i class="fa-regular fa-money-bill-wave"></i>
-    <i class="fa-regular fa-money-bill-wave i2"></i>
-</div><!--icnchange-->
-<h2>Mony Back Guarantee</h2>
-<p>Mony back and replacement in 7 days</p>
-
-</div>
-
-<div class="fticon">
-    <div class="icnchange icnchange4">
-    <i class="fa-solid fa-headset"></i>
-    <i class="fa-solid fa-headset i2"></i>
-</div><!--icnchange-->
-<h2>Online Support</h2>
-<p>Online support available 24 hours</p>
-
-</div>
-
-</div><!--sur-->
-
-</div><!--fticncontainer-->
-
-<footer>
-<div class="ftupcont">
-    <div class="footlft">
-        <h2>Subscribe Newsletter</h2>
-    <p>Subscribe newsletter to get 10%off all purshase.</p>
-    
-    </div>
-    <div class="footmdl">
-
-        <input type="email" placeholder="Enter Your Email">
-        <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="footrt1">
-    <div class="footrt">
-        <i class="fa-brands fa-facebook"></i>
-</div>
-        <div class="footrt">
-        <i class="fa-brands fa-square-instagram"></i>
-</div>
-
-        <div class="footrt">
-        <i class="fa-brands fa-youtube"></i>
-    </div>
-
-</div>
-</div><!--ftupcont-->
-
-<div class="ftdown">
-
-<div class="fticon">
-    <div class="ftlogo">
-        <img src="images/loggo50.PNG" width="270" height="200">
         
-    </div>
+        
 
+
+
+
+
+
+
+
+
+    <div class=" podcast container mt-4 mb-5" >
     
-</div>
+        <div class="  row   dad" style="background-image:url(images/class.jpg); box-shadow: 2px 2px 20px rgba(137, 68, 21, 0.6); border-radius: 16px;
+        background-size: contain;
+             margin: auto;">
+       
+            <div class="col-sm-10  trapezoid-dv2 " style=" height:50vh; background-color: rgb(255, 243, 243); border-radius: 16px;">
+                <div class="container-fluid  scrol pt-5 col-md-11 col-12  text-justify overflow-auto overflow-md-visible" style="
+                height: 100%; width: 85%; margin-left: 30px;">
+                           <h2 style="font-size: 28px; text-shadow:2px 2px 5px rgba(137, 68, 21, 0.4);;">Baking Class Announcement</h2>
+                           <p><i class="fa-solid fa-calendar-days mr-2"></i> sat, july 4th 2025</p>
+                           <div class="line mb-4" style="height: 2px; width: 350px; background-color: brown;"></div>
+                           <p style="line-height: 28px;"> Join our award-winning pastry chef for a hands on 
+                            masterclass! Learn professional techniques: <br>
+                        -Fondant sculpting and painting. <br> -Chocolate garnishes. <br> -Flavor pairing
+                        principles. <br>All materials included + take home your creation. Limited to
+                        8 participants.
+                    
+                           <div class="container-fluid mt-4 p-0" >
+                           <button class="btn btn-light mr-1"> <i class="fa-solid fa-fire-flame-curved mr-1"></i> Book Seat</button>
+                           <button class="btn btn-light mr-1"><i class="fa-solid fa-cookie-bite mr-1"></i>Beginner</button>
+                           <button class="btn btn-light mr-1"><i class="fa-solid fa-gift mr-1"></i>10% off</button>
+                
+                        </div><!--buttoncontainer-->
+                    </div><!--contentcontainer-->
+            </div>
 
-<div class="ft">
-<ul>
-<li class="fthead">Herbal Teas</li>
-<li><a href="#">Stress Relief</a></li>
-<li><a href="#">Digestive Health</a></li>
-<li><a href="#">Detox Blend</a></li>
-<li><a href="#">Sleep and Relax</a></li>
-</ul>
-</div><!--ft-->
-
-<div class="ft">
-    <ul>
-    <li class="fthead">Organic SkinCare</li>
-    <li><a href="#">Face Care</a></li>
-    <li><a href="#">Body Care</a></li>
-    <li><a href="#">Specialty</a></li>
-    <li><a href="#">Mists</a></li>
-    </ul>
-</div><!--ft-->
-
-    <div class="ft">
-        <ul>
-        <li class="fthead">Wellness Bundles</li>
-        <li><a href="#">Family Wellness</a></li>
-        <li><a href="#">Stress-Free Kit</a></li>
-        <li> <a href="#">Detox Bundles</a></li>
-        <li> <a href="#">Immunity Essentials</a></li>
-        </ul>
-    </div><!--ft-->
-        <div class="ft">
-            <ul>
-            <li class="fthead">Quik Links</li>
-            <li><a href="#">Track Your Order</a></li>
-            <li><a href="#">Herbal Consults</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Shipping Policy</a></li>
-            <li><a href="#">Contact Us</a></li>
-            </ul>
-            
-        </div><!--ft-->
-        <div class="rights">
-            <p>Copyright &copy; 2023 All rights reserved| This template
-                is made with <i class="fa-solid fa-heart"></i> by <a href="#">Herbal PH</a>.
-            </p>
+            <div class=" col-sm-12 smpic " style="background-image:url(images/class.jpg); background-position: bottom;">
+            </div><!--col-->
+          </div>
         </div>
 
-</div><!--ftdown-->
 
 
 
 
 
 
+
+        <div class="container  mb-5">
+            <div class="row ">
+                    <div class="row father col-12  position-relative" style="margin-left: 25px; ">
+                      <div class="col-sm-4 picdv  " style="background-image: url(images/ice.jpg); background-size: cover; border-radius: 16px;"></div>
+                      <div class="col-sm-11 trapezoid-dv ml-lg-5 " style="background-color: rgb(255, 243, 243); border-radius: 16px;">
+
+
+                        <div class="container  scrol pt-5 col-md-8 col-12 mr-5 text-justify overflow-auto overflow-md-visible" style="
+                        height: 100%; width: 80%; margin-left: 250px;">
+                                   <h2 style="font-size: 28px;text-shadow: 2px 2px 5px rgba(137, 68, 21, 0.4);">Seasonal Promotion</h2>
+                                   <p ><i class="fa-solid fa-calendar-days mr-2"></i>New on Fri, july 27th 2025</p>
+                                   <div class="line mb-4" style="height: 2px; width: 300px; background-color: brown;"></div>
+                                   <p style="line-height: 28px;">Summer Sweetness Fest:
+                                    Beat the heat with our chilled dessert specials... <br>
+                                    - Mini-cake flight(4flavors). <br>
+                                    - Berry mascarpone parfaits. <br>
+                                    - Coconut-pine upside down cake slice. <br>
+                                    - Best flavors icecream cakes. <br>
+                                   
+
+                                   </p>
+                                   <div class="container-fluid mt-4 p-0" >
+                                   <button class="btn btn-light mr-1"> <i class="fa-solid fa-snowflake"></i></i> Chill Menu</button>
+                                   <button class="btn btn-light mr-2"><i class="fa-solid fa-barcode"></i>Promo Code</button>
+                                   <button class="btn btn-light mr-1"><i class="fa-solid fa-thumbtack"></i></i>Find Locations</button>
+                        
+                                </div><!--buttoncontainer-->
+                            </div><!--contentcontainer-->
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+
+                <div class=" podcast container mt-4 mb-5">
+    
+                    <div class="  row  dad" style="background-image:url(images/berry.jpg); box-shadow: 2px 2px 20px rgba(137, 68, 21, 0.6); border-radius: 15px;
+                    background-size: contain;
+                         margin: auto;">
+                   
+                        <div class="col-sm-10  trapezoid-dv2 " style=" height:50vh; background-color: rgb(255, 243, 243); border-radius: 16px;">
+                            <div class="container  scrol pt-5 col-md-11 col-12  text-justify overflow-auto overflow-md-visible" style="
+                            height: 100%; width: 80%; margin-left: 30px;">
+                                       <h2 style="font-size: 28px;text-shadow: 2px 2px 5px rgba(137, 68, 21, 0.4);">Featured Cake of the Week</h2>
+                                       <p><i class="fa-solid fa-calendar-days mr-2"></i>New on Fri, june 27th 2025</p>
+                                       <div class="line mb-4" style="height: 2px; width: 350px; background-color: brown;"></div>
+                                       <p style="line-height: 28px;"> Velvet Berry Dream:.... 
+                                        <br>Indulge in our summer masterpiece featuring three layers of
+                                        ruby chocolate sponge, fresh seasonal berries, and rose-infused cream
+                                        . <br>Hand-decorated with edible gold leaf and crystalized petals.
+                                        Perfect for celebrations or an exquisited personal treat.
+                                       </p>
+                                       <div class="container-fluid mt-5 p-0" >
+                                        <button class="btn " > 
+                                            <i class="fa-solid fa-cake-candles mr-1"></i> Limited Edition</button>
+                                           <button class="btn " ><i class="fa-solid fa-clock mr-1"></i>48hrs Only</button>
+                                           <button class="btn " ><i class="fa-solid fa-cart-shopping mr-1"></i>Order Now</button>
+                                
+                                    </div><!--buttoncontainer-->
+                                </div><!--contentcontainer-->
+                        </div>
+            
+                        <div class=" col-sm-12 smpic " >
+                        </div><!--col-->
+                      </div>
+                    </div>
+         
+
+
+</section>
+<!--///////////////////////////////////////////////////////////////////-->
+<hr style="background-color: #ff6a87; ">
+
+<section class="lasticn" style="overflow: hidden;">
+
+<div class="container mt-5 " style=" overflow: hidden;">
+    <div class="row justify-content-center">
+
+<div class="col-7 col-sm-4 col-lg-3 mb-3 " >
+        <div class=" border  bg-light square-box">
+
+<h2 class="mb-4" style="font-size: 26px; color: #660033;">Subscribe Now</h2>
+<i class="fa-brands fa-square-twitter mb-2 icn1" style="font-size: 90px; text-shadow:2px 2px 5px pink ;"></i>
+<a href="#" style="font-size: 22px;"> Go to link</a>
+
+        </div>
+    </div><!--col-->
+    <div class="col-7 col-sm-4 col-lg-3 mb-3">
+         <div class=" border  bg-light square-box">
+            <h2 class="mb-4" style="font-size: 26px; color: #660033;">Follow</h2>
+            <i class="fa-brands fa-square-whatsapp mb-2 icn2"  style="font-size: 90px; text-shadow:2px 2px 5px pink ;"></i>
+            <a href="#" style="font-size: 22px;"> Go to link</a>
+         </div>
+    </div><!--col-->
+
+    <div class="col-7 col-sm-4 col-lg-3 mb-3">
+        <div class="border  bg-light square-box">
+            <h2 class="mb-4" style="font-size: 26px; color: #660033;" >Like the page</h2>
+            <i class="fa-brands fa-linkedin mb-2 icn3"  style="font-size: 90px; text-shadow:2px 2px 5px pink ;"></i>
+<a href="#" style="font-size: 22px; "> Go to link</a>
+        </div>
+    </div><!--col-->
+
+    <div class="col-7 col-sm-4 col-lg-3 mb-3 ">
+        <div class=" border  bg-light square-box">
+            <h2 class="mb-4" style="font-size: 26px; color: #660033;">Watch vedios</h2>
+            <i class="fa-brands fa-square-instagram mb-2 icn4"  style="font-size: 90px; text-shadow:2px 2px 5px pink ;"></i>
+<a href="#" style="font-size: 22px;"> Go to link</a>
+        </div>
+    </div><!--col-->
+      </div><!--row-->
+    </div><!--container-->
+
+
+</section>
+
+<footer class="mt-5" style="overflow: hidden; background-color: rgb(255, 248, 248);">
+
+
+<div class="container-fluid mt-5 "  >
+    
+    <div class="row justify-content-center" >
+        
+        <div class=" col-sm-3 mx-5    align-items-center justify-content-center" style="border-top: 1px solid #ff6a87;" >
+         <div class="row  text-center align-items-center ml-5 ml-lg-0   " style="border-bottom: 1px solid #ff6a87;">
+            <img src="images/logo.jpg" style="height: 80px; width: 80px; border-bottom: 1px solid #ff6a87;" class="rounded-circle m-2" >
+              <h2 style="font-size: 22px;" >Sweet Delights</h2>
+            </div>
+
+              <div class=" text-center  mt-3" >
+                <p>Tel:000.000.000</p>
+                <p>Address :Egypt</p>
+                <p>Fax:000.000.000</p>
+            </div>
+
+        </div><!--bigcol-->
+
+        <div class="col-sm-3  mx-5 row align-items-center justify-content-center " style="border-top: 1px solid #ff6a87;" >
+            <div class="row  text-center align-items-center  " style="width: 360px; border-bottom: 1px solid #ff6a87;">
+                <img src="images/logo.jpg" style="height: 80px; width: 80px; border-bottom: 1px solid #ff6a87;" class="rounded-circle m-2" >
+                  <h2 style="font-size: 22px;" >Sweet Delights</h2>
+                </div>
+    
+                  <div class=" text-center mt-3 " >
+                    <p><a href="#">Visit Us</a></p>
+            <p><a href="#">Take alook</a></p>
+            <p><a href="#">Every slice tells a sweet story</a></p>
+                </div>
+
+        </div>
+
+
+
+        <div class="col-sm-3  mx-5 row align-items-center  justify-content-center " style="border-top: 1px solid #ff6a87;">
+            <div class="row  text-center align-items-center  "   style="width: 360px;  border-bottom: 1px solid #ff6a87;" >
+                
+                <img src="images/logo.jpg" style="height: 80px; width: 80px; border-bottom: 1px solid #ff6a87;" class="rounded-circle m-2" >
+                  <h2 style="font-size: 22px; " >Sweet Delights</h2>
+                </div>
+           
+                  <div class=" text-center  mt-3">
+                    <P>Serveices for all</P>
+        <p>Handcrafted with premium ingredients</p>
+        <p>Your special  day will be sweeter yhan ever</p>
+                </div>
+
+        </div>
+
+      </div><!--bigrow-->
+
+
+      <div class="row text-center border mt-2">
+        
+        <div class="col-sm-12 p-3" style="border: 1px solid #ff6a87;">
+            <h3 style="font-size: 22px;">COPYRIGHT &copy; 2025 FATMAHUSSIEN , SWEET DELIGHTS.ALL RIGHTS.</h3>
+        </div>
+      </div><!--row-->
+
+
+      <div class="row text-center ">
+        
+        <div class="col-sm-12 p-4"></div>
+      </div><!--row-->
+    </div><!--container-->
 
 </footer>
 
 
-</section>
 
 
 
 
 
-</body>
+
+
+
+
+
+
+
+
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+    </script>
+
+
+
+<script>
+$(document).ready((function)(){$('[data-toggle="tooltip"]').tooltip()})
+
+</script>
+
+
+
+<script>
+    $(document).ready(function(){
+      $("#myBtn").click(function(){
+        $("#myModal").modal("toggle");
+      });
+    });
+    </script>
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 
 
 </html>
