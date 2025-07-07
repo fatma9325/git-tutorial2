@@ -267,10 +267,52 @@ footer{box-shadow: 0px 0px 20px  rgba(137, 68, 21, 0.3);}
 100%{width: 350px;
 background-color: #ff6a87;}
 
-
-
       }
 
 
 
-      
+      .toltip button{
+      position: relative;
+    cursor: pointer;
+  display: block;}
+
+  .toltip .sp1{position: absolute;
+  background-color: white;
+border:.5px  solid #660033;
+border-radius: 0px 10px 10px 10px;
+color: #660033;
+left: 95%;
+
+min-width: 120px;
+min-height: 30px;
+padding: 10px ;
+top: 40px;
+transition: .5s;
+display: none;
+}
+
+
+.toltip button:hover{overflow: visible;
+  
+}
+.toltip button:active .sp1{
+  display: block;
+}
+ 
+.toltip .sp2{position: absolute;
+  background-color: white;
+border:.5px  solid #660033;
+border-radius: 10px 10px 10px 0px;
+color: #660033;
+left: 95%;
+
+min-width: 120px;
+min-height: 30px;
+padding: 5px ;
+top: -50px;
+transition: 1s;
+display: none;
+}
+.toltip button:hover .sp2{
+  display: block;
+}

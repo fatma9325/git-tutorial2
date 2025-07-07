@@ -528,11 +528,11 @@ background-attachment: fixed; width: 100vw; height: 50vh;"></div>
         <h2 style="color: #660033;">Custom Cake Designer</h2></div>
     <div class="card-body" style="background-color: #fff5f5;">
 
-        <div class="form-group" >
+        <div class="form-group toltip" >
             <label  class="d-block" style="color: #660033;" for="comment ">Create Your Masterpiece:</label>
             <button type="button" class="btn border-none  mb-3" data-toggle="modal" data-target="#alertmodal" data-backdrop="false" 
-            data-bs-toggle="tooltip" data-bs-palcement="top" title="Design Saved"
-            style="background-color:#660033; color: #ffffff;">Save Design</button>
+            style="background-color:#660033; color: #ffffff;">  Save Design 
+            <span class="sp1">Design Saved</span> <span class="sp2">Save to Clipboard </span></button>
 
             <textarea class="form-control"  placeholder="Describe your dream cake : flavors, decoration, theme..." rows="5" id="comment"
             style="box-shadow: 0px 2px 20px rgba(137, 68, 21, 0.2) "></textarea>
@@ -572,12 +572,13 @@ background-attachment: fixed; width: 100vw; height: 50vh;"></div>
             <h2 style="color: #660033;">Custom Cake Designer</h2></div>
         <div class="card-body" style="background-color: #fff5f5;">
 
-            <div class="form-group">
+            <div class="form-group toltip">
                 <label  class="d-block"  for="comment " style="color: #660033;">Special Dietary Notes</label>
                 <button type="button" class="btn border-none mb-3" data-toggle="modal" data-target="#alertmodal"
-                data-bs-toggle="tooltip" data-bs-palcement="top" title="Design Saved"
 
-                style="background-color:#660033; color: #ffffff;">Copy Notes</button>
+                style="background-color:#660033; color: #ffffff;">Copy Notes
+                <span class="sp1">Notes Saved</span> <span class="sp2">Copy to Clipboard </span>
+            </button>
 
                 <textarea class="form-control" placeholder="List any allergies or dietary requirements:gluten-free, vegan,nut allergy..." rows="5" id="comment"
                 style="box-shadow: 0px 2px 20px rgba(137, 68, 21, 0.2) "></textarea>
@@ -619,12 +620,13 @@ background-attachment: fixed; width: 100vw; height: 50vh;"></div>
             <h2 style="color: #660033;">Custom Cake Designer</h2></div>
         <div class="card-body" style="background-color: #fff5f5;">
 
-            <div class="form-group">
+            <div class="form-group toltip">
                 <label  class="d-block"  for="comment " style="color: #660033;">Special Event Planner</label>
                 <button type="button" class="btn border-none mb-3" data-toggle="modal" data-target="#alertmodal"
-                data-bs-toggle="tooltip" data-bs-palcement="top" title="Design Saved"
 
-                style="background-color:#660033; color: #ffffff;">Copy Details</button>
+                style="background-color:#660033; color: #ffffff;">Copy Details
+                <span class="sp1">Details Copied</span> <span class="sp2">Copy to Clipboard </span>
+            </button>
 
                 <textarea class="form-control"  placeholder="Describe your upcomming celebration details...." rows="5" id="comment"
                 style="box-shadow: 0px 2px 20px rgba(137, 68, 21, .2) "></textarea>
@@ -1032,10 +1034,7 @@ height: 100%; width: 80%; margin-left: 250px;">
 
 
 
-<script>
-$(document).ready((function)(){$('[data-toggle="tooltip"]').tooltip()})
 
-</script>
 
 
 
