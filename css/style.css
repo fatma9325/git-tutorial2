@@ -13,6 +13,22 @@ background-color: rgba(255, 231, 231,.5)!important;}
 }
 .nav-link:hover .m{color: #660033;}
 
+@media (max-width:768px){.nav-link{width: 65px;
+
+   }}
+
+   @media (max-width:768px){.dropdown-menu a{color: #ffd4d4
+
+   }}
+
+   @media (max-width:768px){.dropdown-menu{width: 550px;
+    height: 300px;
+border-radius: 8px;
+margin-left: 12px!important;
+background-color: rgba(137, 68, 21, 0.7)!important;
+
+   }}
+
 .dropdown-menu a:hover{color: #ffcad5;
   background-color: rgba(137, 68, 21)}
 .headbtn:hover{background-color: #ffd4d4!important;
